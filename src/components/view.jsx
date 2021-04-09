@@ -2,12 +2,7 @@
 import maindata from './data.json';
 import * as React from 'react';
 import { DataGrid } from '@material-ui/data-grid';
-import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import FormLabel from "@material-ui/core/FormLabel";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import RadioGroup from "@material-ui/core/RadioGroup";
-import Radio from "@material-ui/core/Radio";
 import Paper from "@material-ui/core/Paper";
 
 //let connection = new RTCMultiConnection();
@@ -54,11 +49,11 @@ class Landing extends React.Component {
           let t = 0;
           t = maindata.matches[i].players[j].points - maindata.matches[i].players[j].winner;
           v += t;
-          if (maindata.matches[i].players[j].points != maindata.matches[i].players[j].winner)
+          if (maindata.matches[i].players[j].points !== maindata.matches[i].players[j].winner)
             maindata.matches[i].players[j].pointdifference = t;
         }
         for(j = 0; j<maindata.matches[i].players.length;j++){
-          if (maindata.matches[i].players[j].points == maindata.matches[i].players[j].winner){
+          if (maindata.matches[i].players[j].points === maindata.matches[i].players[j].winner){
             maindata.matches[i].players[j].pointdifference = v * -1;
             j = maindata.matches[i].players.length;
           }
