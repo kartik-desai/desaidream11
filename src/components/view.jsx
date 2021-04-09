@@ -101,12 +101,12 @@ class Landing extends React.Component {
 
                   {maindata.matches.map(match =>{
                       return(
-                        this.state.match == match.match ?
+                        this.state.match === match.match ?
                         (<ul> <Paper className="paperbtn" onClick={this.setMatch} style= {{background:"deepskyblue"}} data-match={match.match}>M{match.match}: {match.teams}</Paper> </ul> ) :
                         (<ul> <Paper className="paperbtn" onClick={this.setMatch} data-match={match.match}>M{match.match}: {match.teams}</Paper> </ul>)
                     )
                   })}
-                  {this.state.match == 0 ?
+                  {this.state.match === 0 ?
                     (<ul> <Paper className="paperbtn" onClick={this.setMatch}style= {{background:"deepskyblue"}} data-match={0}>Overall</Paper> </ul>) :
                     (<ul> <Paper className="paperbtn" onClick={this.setMatch} data-match={0}>Overall</Paper> </ul>)
                   }
