@@ -104,7 +104,7 @@ class Landing extends React.Component {
       <div>
       <div className="header">
         Desai
-        <img width="370px" className="img" src="https://ttensports.com/wp-content/uploads/2019/10/Dream-11.png"/>
+        <img width="370px" alt="Dream11" className="img" src="https://ttensports.com/wp-content/uploads/2019/10/Dream-11.png"/>
       </div>
       <Grid container className="root" spacing={2} style= {{placeContent: "center", marginTop: "5px"}}>
         <Grid item lg={11}>
