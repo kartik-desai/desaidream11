@@ -14,14 +14,14 @@
         "id": 2,
 				"name": "Pinakin",
 				"points": 605.5,
-				"winloss": 240,
+				"winloss": 190,
         "winner": 649
 			},
 			{
         "id": 3,
 				"name": "Jatin",
 				"points": 649,
-				"winloss": 400,
+				"winloss": 350,
         "winner": 649
 			},
 			{
@@ -35,7 +35,7 @@
         "id": 5,
 				"name": "Jitendra",
 				"points": 0,
-				"winloss": 0,
+				"winloss": -50,
         "winner": 0
 			},
 			{
@@ -70,7 +70,7 @@
         "id": 10,
 				"name": "Keyur",
 				"points": 604.5,
-				"winloss": 160,
+				"winloss": 110,
         "winner": 649
 			},
 			{
