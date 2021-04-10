@@ -44,7 +44,7 @@ body {
 }
 .paper {
   height: 600px;
-  width: 300px
+  width: 320px
 }
 .papersmall {
   height: 240px;
@@ -56,4 +56,18 @@ body {
 }
 .growth{
   overflow-y: scroll;
+  max-height: 140px;
+  margin-left: -8px;
+}
+.header{
+    color: white;
+    font-size: xxx-large;
+    /* color: red; */
+    background: #e02228;
+    font-family: fantasy;
+    width: -webkit-fill-available;
+    height: 150px;
+}
+.img{
+  margin-top: -50px;
 }

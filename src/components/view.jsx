@@ -4,11 +4,12 @@ import * as React from 'react';
 import { DataGrid } from '@material-ui/data-grid';
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
-
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
 //let connection = new RTCMultiConnection();
 const columns = [
 
-  { field: 'name', headerName: 'Player Name', width: 120, sortable: false },
+  { field: 'name', headerName: 'Player', width: 95, sortable: false },
   {
     field: 'points',
     headerName: 'Points',
@@ -16,21 +17,30 @@ const columns = [
     width: 80,
   },
   {
-    field: 'pointdifference',
-    headerName: 'Point Difference',
+    field: 'winloss',
+    headerName: 'Win/Loss',
     type: 'number',
-    width: 150,
+    width: 120,
   },
 ];
 const sortModel = [
   {
-    field: 'pointdifference',
+    field: 'winloss',
     sort: 'desc',
   },
 ];
 let rows = maindata.matches[0].players;
+function Copyright() {
+return (
+  <Typography variant="body2" color="error" align="center">
+    {'Last Updated : 10/04/2021, 10:40 AM '}
+  </Typography>
+);
+}
 //let maindata = JSON.parse(JSON.stringify(data));
 class Landing extends React.Component {
+
+
 
   //let maindata = JSON.parse(JSON.stringify(data));
     constructor(props) {
@@ -80,6 +90,7 @@ class Landing extends React.Component {
           for(let j= 0; j<players.length; j++){
             players[j].points += temp[j].points;
             players[j].pointdifference += temp[j].pointdifference;
+            players[j].winloss += temp[j].winloss;
           }
         }
         rows = players;
@@ -91,12 +102,17 @@ class Landing extends React.Component {
     render() {
       return (
       <div>
-      <Grid container className="root" spacing={2} style= {{placeContent: "center", marginTop: "30px"}}>
+      <div className="header">
+        Desai
+        <img width="370px" className="img" src="https://ttensports.com/wp-content/uploads/2019/10/Dream-11.png"/>
+      </div>
+      <Grid container className="root" spacing={2} style= {{placeContent: "center", marginTop: "5px"}}>
         <Grid item lg={11}>
           <Grid container justify="center" spacing={2}>
             <Grid item>
               <Paper className="papersmall">
-              Matches<br/>
+              <div style={{height:"0.5px"}}></div>
+              <h3> Matches </h3>
               <div className="growth">
 
                   {maindata.matches.map(match =>{
@@ -125,7 +141,9 @@ class Landing extends React.Component {
           </Grid>
         </Grid>
       </Grid>
-
+      <Box mt={5}>
+							<Copyright />
+						</Box>
       </div>
     );
   }
