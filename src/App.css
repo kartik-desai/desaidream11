@@ -14,7 +14,7 @@
 }
 
 body {
-  background: #000000;
+  background: #242424;
 }
 .App-header {
   background-color: #282c34;
@@ -42,10 +42,48 @@ body {
 .root {
   flex-grow: 1
 }
-.paper {
-  height: 600px;
-  width: 320px
+@media only screen and (max-width: 488px) and (max-height: 830px){
+  .paper {
+    height: 600px;
+    width: 320px
+  }
+  .mygrid{
+    height: 600px;
+    width: 100%
+  }
 }
+@media only screen and (min-width: 489px) and (max-height: 1020px){
+  .paper{
+    height: 600px;
+    width: 550px
+  }
+  .mygrid{
+    height: 600px;
+    width: 550px
+  }
+}
+/*height greater than 700px*/
+@media only screen and (min-height: 1021px){
+  .paper{
+    height: 1000px;
+    width: 550px
+  }
+  .mygrid{
+    height: 1000px;
+    width: 100%
+  }
+}
+/*@media only screen and (max-height: 699px){
+  .paper{
+    height: 600px;
+    width: 320px
+  }
+  .mygrid{
+    height: 600px;
+    width: 100%
+  }
+}
+*/
 .papersmall {
   height: 240px;
   width: 205px;
