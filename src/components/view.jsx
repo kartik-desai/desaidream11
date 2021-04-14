@@ -67,7 +67,7 @@ let rows = maindata.matches[0].players;
 function Copyright() {
 return (
   <Typography variant="body2" color="error" align="center">
-    {'Last Updated : 12/04/2021, 11:11 AM '}
+    {'Last Updated : 14/04/2021, 11:14 AM '}
   </Typography>
 );
 }
