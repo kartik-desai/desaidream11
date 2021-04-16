@@ -766,6 +766,131 @@
           "winner": 767.5
         }
       ]
+    },
+    {
+      "match": 7,
+      "teams": "RR vs DC",
+      "players": [
+        {
+          "id": 1,
+          "name": "Kartik",
+          "points": 448,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 2,
+          "name": "Pinakin",
+          "points": 546,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 3,
+          "name": "Jatin",
+          "points": 623.5,
+          "winloss": 110,
+          "winner": 688
+        },
+        {
+          "id": 4,
+          "name": "Harsh",
+          "points": 463.5,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 5,
+          "name": "Jitendra",
+          "points": 379.5,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 6,
+          "name": "Girish",
+          "points": 531.5,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 7,
+          "name": "Gini",
+          "points": 622.5,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 8,
+          "name": "Shubham",
+          "points": 412.5,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 9,
+          "name": "Shailesh",
+          "points": 688,
+          "winloss": 350,
+          "winner": 688
+        },
+        {
+          "id": 10,
+          "name": "Keyur",
+          "points": 458.5,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 11,
+          "name": "Hiren",
+          "points": 577.5,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 12,
+          "name": "Meet",
+          "points": 444,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 13,
+          "name": "Vatsal",
+          "points": 486,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 14,
+          "name": "Nisarg",
+          "points": 672,
+          "winloss": 190,
+          "winner": 688
+        },
+        {
+          "id": 15,
+          "name": "Sudhir",
+          "points": 421,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 16,
+          "name": "Parth",
+          "points": 504,
+          "winloss": -50,
+          "winner": 688
+        },
+        {
+          "id": 17,
+          "name": "Om",
+          "points": 446.5,
+          "winloss": 0,
+          "winner": 688
+        }
+      ]
     }
   ]
 }
