@@ -891,6 +891,131 @@
           "winner": 688
         }
       ]
+    },
+    {
+      "match": 8,
+      "teams": "PBKS vs CSK",
+      "players": [
+        {
+          "id": 1,
+          "name": "Kartik",
+          "points": 417.5,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 2,
+          "name": "Pinakin",
+          "points": 335.5,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 3,
+          "name": "Jatin",
+          "points": 408.5,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 4,
+          "name": "Harsh",
+          "points": 417,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 5,
+          "name": "Jitendra",
+          "points": 447,
+          "winloss": 110,
+          "winner": 481
+        },
+        {
+          "id": 6,
+          "name": "Girish",
+          "points": 415.5,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 7,
+          "name": "Gini",
+          "points": 442,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 8,
+          "name": "Shubham",
+          "points": 461.5,
+          "winloss": 190,
+          "winner": 481
+        },
+        {
+          "id": 9,
+          "name": "Shailesh",
+          "points": 406,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 10,
+          "name": "Keyur",
+          "points": 305,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 11,
+          "name": "Hiren",
+          "points": 424.5,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 12,
+          "name": "Meet",
+          "points": 481,
+          "winloss": 350,
+          "winner": 481
+        },
+        {
+          "id": 13,
+          "name": "Vatsal",
+          "points": 429.5,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 14,
+          "name": "Nisarg",
+          "points": 395,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 15,
+          "name": "Sudhir",
+          "points": 266,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 16,
+          "name": "Parth",
+          "points": 411.5,
+          "winloss": -50,
+          "winner": 481
+        },
+        {
+          "id": 17,
+          "name": "Om",
+          "points": 402.5,
+          "winloss": 0,
+          "winner": 481
+        }
+      ]
     }
   ]
 }
